@@ -9,5 +9,56 @@
 </head>
 <body>
     
+    <section>
+        <h2>Learn Web Design, Coding, & Much More</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim nisi nesciunt ex necessitatibus officiis esse! Assumenda earum magni ex. Aliquid velit doloremque voluptatum explicabo harum expedita, eveniet deleniti sit natus?</p>
+    </section>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <p>Try it free for 7 days starting at $25 a month</p>
+            <!-- radio button options -->
+            <!-- they require a name atrtribute to be connected -->
+            <!-- and a value attribute for the database information -->
+            <h3>Field of Interest</h3>
+            <div>
+                <input type="radio" id="html" name="area-interest" value="HTML" checked>
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="radio" id="css" name="area-interest" value="CSS">
+                <label for="css">Styling a Website</label>
+            </div>
+            <div>
+                <input type="radio" id="js" name="area-interest" value="JavaScript">
+                <label for="js">JavaScript</label>
+            </div>
+            <div>
+                <input type="radio" id="ux-ui" name="area-interest" value="UX UI">
+                <label for="ux-ui">UX/UI</label>
+            </div>
+            <!-- all inputs require a label that is connected to the input-->
+            <div>
+                <label for="f-name">First Name</label>
+                <input type="text" id="f-name" required>
+            </div>
+            <div>
+                <label for="l-name">Last Name</label>
+                <input type="text" id="l-name" required>
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required placeholder="Email Address Required">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" required autocomplete="off" minlength="10" placeholder="Passwords must be 10 characters long">
+            </div>
+            <div>
+                <input type="submit" value="Claim Your Free Trial &#9656;">
+            </div>
+            <p>By signing up you are agreeing to our Terms of Service</p>
+        </fieldset>
+    </form>
 </body>
 </html>
